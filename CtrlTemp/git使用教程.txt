@@ -38,6 +38,4 @@ $ git checkout -- readme.txt
  13、添加远程
  git remote add origin git@github.com:JNNeil/CtrlTemp.git
   git push -u origin master
-  
-  
-  增加
+  增加内容被删除
