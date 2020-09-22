@@ -1,0 +1,12 @@
+ctrltemp\kservice.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/src/kservice.c
+ctrltemp\kservice.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rtthread.h
+ctrltemp\kservice.o: ../Inc/rtconfig.h
+ctrltemp\kservice.o: ../Inc/RTE_Components.h
+ctrltemp\kservice.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rtdebug.h
+ctrltemp\kservice.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rtdef.h
+ctrltemp\kservice.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+ctrltemp\kservice.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rtservice.h
+ctrltemp\kservice.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rtm.h
+ctrltemp\kservice.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rtthread.h
+ctrltemp\kservice.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/components/finsh/finsh_api.h
+ctrltemp\kservice.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rthw.h

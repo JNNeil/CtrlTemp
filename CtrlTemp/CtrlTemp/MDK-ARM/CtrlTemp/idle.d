@@ -1,0 +1,12 @@
+ctrltemp\idle.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/src/idle.c
+ctrltemp\idle.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rthw.h
+ctrltemp\idle.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rtthread.h
+ctrltemp\idle.o: ../Inc/rtconfig.h
+ctrltemp\idle.o: ../Inc/RTE_Components.h
+ctrltemp\idle.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rtdebug.h
+ctrltemp\idle.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rtdef.h
+ctrltemp\idle.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+ctrltemp\idle.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rtservice.h
+ctrltemp\idle.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rtm.h
+ctrltemp\idle.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/include/rtthread.h
+ctrltemp\idle.o: ../Middlewares/Third_Party/RealThread_RTOS_RT-Thread/components/finsh/finsh_api.h
