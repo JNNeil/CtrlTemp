@@ -1,0 +1,22 @@
+1、创建一个版本库，选择一个合适的地方，创建一个空目录：
+$ mkdir learngit
+$ cd learngit
+$ pwd
+/Users/michael/learngit
+2、创建仓库：指令“git init”
+3、在当前目录下，新建readme.txt文件夹，并输入内容；
+4、使用命令“git add readme.txt”将文件添加到仓库中；
+注意：所有git命令都是在git的仓库下操作；
+5、使用命令“git commit “提交内容说明””将文件提交到仓库中。
+6、使用“git log”显示当前仓库文件中提交记录，“git reflog”显示记录你的每一次命令；
+7、命令“git reset --hard HEAD^”回滚到上一次提交状态；
+在Git中，用HEAD表示当前版本，也就是最新的提交
+上一个版本就是HEAD^，上上一个版本就是HEAD^^，
+当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
+8、工作区（Working Directory）
+就是你在电脑里能看到的目录，比如我的learngit文件夹就是一个工作区：
+版本库（Repository）
+工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。
+Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，
+还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD
+指令“git status”查看状态
