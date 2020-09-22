@@ -7,7 +7,7 @@ $ pwd
 3、在当前目录下，新建readme.txt文件夹，并输入内容；
 4、使用命令“git add readme.txt”将文件添加到仓库中；
 注意：所有git命令都是在git的仓库下操作；
-5、使用命令“git commit “提交内容说明””将文件提交到仓库中。
+5、使用命令“git commit -m“提交内容说明””将文件提交到仓库中。
 6、使用“git log”显示当前仓库文件中提交记录，“git reflog”显示记录你的每一次命令；
 7、命令“git reset --hard HEAD^”回滚到上一次提交状态；
 在Git中，用HEAD表示当前版本，也就是最新的提交
@@ -19,4 +19,15 @@ $ pwd
 工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。
 Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，
 还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD
-指令“git status”查看状态
+9、指令“git status”查看仓库状态
+10、用git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别
+11、git checkout -- file可以丢弃工作区的修改：
+
+$ git checkout -- readme.txt
+命令git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销，这里有两种情况：
+
+一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+
+一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
+
+总之，就是让这个文件回到最近一次git commit或git add时的状态。
