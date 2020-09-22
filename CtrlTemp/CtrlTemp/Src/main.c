@@ -76,7 +76,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+#DEFINE.........JDKSALK
   /* USER CODE END Init */
 
   /* Configure the system clock */
